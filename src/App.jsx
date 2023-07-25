@@ -16,7 +16,7 @@ import PostsPage from './pages/PostsPage';
 // import AddPostPage from './pages/AddPostPage';
 // import EditPostPage from './pages/EditPostPage';
 // import AddCarRepair from './pages/AddCarRepair';
-// import AddCar from './components/addCar/AddCar';
+import AddCar from './components/addCar/AddCar';
 import MainRepairsPage from './pages/MainRepairsPage';
 import TypeRepairPage from './pages/TypeRepairPage';
 import Price from './pages/Price';
@@ -67,7 +67,7 @@ function App() {
           <Route path="/users" element={<Users />} />
 
           <Route path="/takeacar" element={<TakeACar />} />
-          {/* <Route path="/addcar/:id" element={<AddCar />} /> */}
+          <Route path="/addcar/:id" element={<AddCar />} />
           {/* <Route path="/addcarrepair" element={<AddCarRepair />} /> */}
 
           <Route path="/mainrepair" element={<MainRepairsPage />} />
