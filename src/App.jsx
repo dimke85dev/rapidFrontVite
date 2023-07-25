@@ -12,7 +12,7 @@ import Layout from './components/layout/Layout';
 import MainPage from './pages/MainPage';
 // import AboutPages from './pages/AboutPages';
 import PostsPage from './pages/PostsPage';
-import PostPage from './pages/PostPage';
+// import PostPage from './pages/PostPage';
 // import AddPostPage from './pages/AddPostPage';
 // import EditPostPage from './pages/EditPostPage';
 // import AddCarRepair from './pages/AddCarRepair';
@@ -51,7 +51,7 @@ function App() {
 
           <Route path="/posts" element={<PostsPage />} />
           <Route path="/out" element={<MainPage />} />
-          <Route path="/:id" element={<PostPage />} />
+          {/* <Route path="/:id" element={<PostPage />} /> */}
           {/* <Route path="/newPost" element={<AddPostPage />} /> */}
           {/* <Route path="/:id/editPost" element={<EditPostPage />} /> */}
 
