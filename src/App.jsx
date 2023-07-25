@@ -6,7 +6,7 @@ import Footer from './components/UI/Footer';
 import Layout from './components/layout/Layout';
 // import TakeACar from './pages/TakeACar';
 // import Reports from './pages/Reports';
-// import Settings from './pages/Settings';
+import Settings from './pages/Settings';
 // import RegisterPage from './pages/RegisterPage';
 // import LoginPage from './pages/LoginPage';
 import MainPage from './pages/MainPage';
@@ -20,7 +20,7 @@ import PostsPage from './pages/PostsPage';
 // import MainRepairsPage from './pages/MainRepairsPage';
 // import TypeRepairPage from './pages/TypeRepairPage';
 import Price from './pages/Price';
-// import Users from './pages/Users';
+import Users from './pages/Users';
 // import Cars from './pages/Cars';
 // import Car from './pages/Car';
 import Contacts from './pages/Contacts';
@@ -64,7 +64,7 @@ function App() {
           {/* <Route path="/cars/:id" element={<Car />} /> */}
 
           {/* <Route path="/login" element={<LoginPage />} /> */}
-          {/* <Route path="/users" element={<Users />} /> */}
+          <Route path="/users" element={<Users />} />
 
           {/* <Route path="/takeacar" element={<TakeACar />} /> */}
           {/* <Route path="/addcar/:id" element={<AddCar />} /> */}
@@ -74,7 +74,7 @@ function App() {
           {/* <Route path="/mainrepair/:id" element={<TypeRepairPage />} /> */}
 
           {/* <Route path="/reports" element={<Reports />} /> */}
-          {/* <Route path="/settings" element={<Settings />} /> */}
+          <Route path="/settings" element={<Settings />} />
         </Routes>
 
             <ToastContainer position="bottom-right" />
