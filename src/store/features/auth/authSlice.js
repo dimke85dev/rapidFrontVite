@@ -100,7 +100,6 @@ export const loginUser = createAsyncThunk(
 export const getMe = createAsyncThunk('auth/getMe', async () => {
   try {
     const { data } = await axios.get('/auth/me');
-    console.log(data);
     return data;
   } catch (error) {
     console.log(error);
