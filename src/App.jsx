@@ -12,9 +12,9 @@ import LoginPage from './pages/LoginPage';
 import MainPage from './pages/MainPage';
 import AboutPages from './pages/AboutPages';
 import PostsPage from './pages/PostsPage';
-import PostPage from './pages/PostPage';
-// import AddPostPage from './pages/AddPostPage';
-// import EditPostPage from './pages/EditPostPage';
+// import PostPage from './pages/PostPage';
+import AddPostPage from './pages/AddPostPage';
+import EditPostPage from './pages/EditPostPage';
 import AddCarRepair from './pages/AddCarRepair';
 import AddCar from './components/addCar/AddCar';
 import MainRepairsPage from './pages/MainRepairsPage';
@@ -51,9 +51,9 @@ function App() {
 
           <Route path="/posts" element={<PostsPage />} />
           <Route path="/out" element={<MainPage />} />
-          <Route path="/:id" element={<PostPage />} />
-          {/* <Route path="/newPost" element={<AddPostPage />} /> */}
-          {/* <Route path="/:id/editPost" element={<EditPostPage />} /> */}
+          {/* <Route path="/:id" element={<PostPage />} /> */}
+          <Route path="/newPost" element={<AddPostPage />} />
+          <Route path="/:id/editPost" element={<EditPostPage />} />
 
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/price" element={<Price />} />
