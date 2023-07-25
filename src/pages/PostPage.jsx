@@ -1,6 +1,5 @@
 import { useCallback, useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
-// import Moment from 'react-moment';
 import {
   AiFillEye,
   AiOutlineMessage,
@@ -18,6 +17,10 @@ import {
 } from '../store/features/comment/commentSlice';
 import CommentItem from '../components/comments/CommentItem';
 import Loader from '../components/UI/Loader';
+import { format } from 'date-fns';
+
+const dateReapair = format(new Date(), 'dd.MM.yyyy')
+
 
 const PostPage = () => {
   const [comment, setComment] = useState('');
@@ -125,7 +128,8 @@ const PostPage = () => {
                 <div className="flex justify-between items-center pt-2">
                   <div className="text-xs opacity-50">{post.username}</div>
                   <div className="text-xs text-black opacity-50">
-                    {/* <Moment date={post.createdAt} format="D MMM YYYY" /> */}
+                  <span className="py-1">{dateReapair}</span>
+                    
                   </div>
                 </div>
                 <div className="text-xl">{post.title}</div>
