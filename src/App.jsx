@@ -44,7 +44,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
-          {/* <Layout > */}
+          <Layout >
           {/* <Routes>
           <Route path="/" element={<MainPage />} />
 
@@ -80,7 +80,7 @@ function App() {
             <ToastContainer position="bottom-right" />
 
             <Footer></Footer>
-          {/* </Layout> */}
+          </Layout>
           </BrowserRouter>
        
     </>
