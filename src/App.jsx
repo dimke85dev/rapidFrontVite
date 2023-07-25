@@ -8,7 +8,7 @@ import Layout from './components/layout/Layout';
 // import Reports from './pages/Reports';
 import Settings from './pages/Settings';
 // import RegisterPage from './pages/RegisterPage';
-// import LoginPage from './pages/LoginPage';
+import LoginPage from './pages/LoginPage';
 import MainPage from './pages/MainPage';
 import AboutPages from './pages/AboutPages';
 import PostsPage from './pages/PostsPage';
@@ -63,7 +63,7 @@ function App() {
           {/* <Route path="/cars" element={<Cars />} /> */}
           {/* <Route path="/cars/:id" element={<Car />} /> */}
 
-          {/* <Route path="/login" element={<LoginPage />} /> */}
+          <Route path="/login" element={<LoginPage />} />
           <Route path="/users" element={<Users />} />
 
           {/* <Route path="/takeacar" element={<TakeACar />} /> */}
