@@ -1,29 +1,29 @@
-import { Route, Routes } from 'react-router-dom';
+// import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Footer from './components/UI/Footer';
 
 
 import Layout from './components/layout/Layout';
-import TakeACar from './pages/TakeACar';
-import Reports from './pages/Reports';
-import Settings from './pages/Settings';
-import RegisterPage from './pages/RegisterPage';
-import LoginPage from './pages/LoginPage';
-import MainPage from './pages/MainPage';
-import AboutPages from './pages/AboutPages';
-import PostsPage from './pages/PostsPage';
-import PostPage from './pages/PostPage';
-import AddPostPage from './pages/AddPostPage';
-import EditPostPage from './pages/EditPostPage';
-import AddCarRepair from './pages/AddCarRepair';
-import AddCar from './components/addCar/AddCar';
-import MainRepairsPage from './pages/MainRepairsPage';
-import TypeRepairPage from './pages/TypeRepairPage';
-import Price from './pages/Price';
-import Users from './pages/Users';
-import Cars from './pages/Cars';
-import Car from './pages/Car';
-import Contacts from './pages/Contacts';
+// import TakeACar from './pages/TakeACar';
+// import Reports from './pages/Reports';
+// import Settings from './pages/Settings';
+// import RegisterPage from './pages/RegisterPage';
+// import LoginPage from './pages/LoginPage';
+// import MainPage from './pages/MainPage';
+// import AboutPages from './pages/AboutPages';
+// import PostsPage from './pages/PostsPage';
+// import PostPage from './pages/PostPage';
+// import AddPostPage from './pages/AddPostPage';
+// import EditPostPage from './pages/EditPostPage';
+// import AddCarRepair from './pages/AddCarRepair';
+// import AddCar from './components/addCar/AddCar';
+// import MainRepairsPage from './pages/MainRepairsPage';
+// import TypeRepairPage from './pages/TypeRepairPage';
+// import Price from './pages/Price';
+// import Users from './pages/Users';
+// import Cars from './pages/Cars';
+// import Car from './pages/Car';
+// import Contacts from './pages/Contacts';
 import { useDispatch } from 'react-redux';
 import { getMe } from './store/features/auth/authSlice';
 import { ToastContainer } from 'react-toastify';
@@ -43,8 +43,8 @@ function App() {
 
   return (
     <>
-          <Layout >
-          <Routes>
+          {/* <Layout > */}
+          {/* <Routes>
           <Route path="/" element={<MainPage />} />
 
 
@@ -74,12 +74,12 @@ function App() {
 
           <Route path="/reports" element={<Reports />} />
           <Route path="/settings" element={<Settings />} />
-        </Routes>
+        </Routes> */}
 
             <ToastContainer position="bottom-right" />
 
             <Footer></Footer>
-          </Layout>
+          {/* </Layout> */}
           
        
     </>
