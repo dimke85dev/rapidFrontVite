@@ -9,7 +9,7 @@ import Layout from './components/layout/Layout';
 // import Settings from './pages/Settings';
 // import RegisterPage from './pages/RegisterPage';
 // import LoginPage from './pages/LoginPage';
-// import MainPage from './pages/MainPage';
+import MainPage from './pages/MainPage';
 // import AboutPages from './pages/AboutPages';
 // import PostsPage from './pages/PostsPage';
 // import PostPage from './pages/PostPage';
@@ -46,7 +46,7 @@ function App() {
     <BrowserRouter>
           <Layout >
           <Routes>
-          {/* <Route path="/" element={<MainPage />} /> */}
+          <Route path="/" element={<MainPage />} />
 
 
           {/* <Route path="/posts" element={<PostsPage />} /> */}
