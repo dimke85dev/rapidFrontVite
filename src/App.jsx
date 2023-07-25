@@ -7,7 +7,7 @@ import Layout from './components/layout/Layout';
 // import TakeACar from './pages/TakeACar';
 // import Reports from './pages/Reports';
 import Settings from './pages/Settings';
-// import RegisterPage from './pages/RegisterPage';
+import RegisterPage from './pages/RegisterPage';
 import LoginPage from './pages/LoginPage';
 import MainPage from './pages/MainPage';
 import AboutPages from './pages/AboutPages';
@@ -55,7 +55,7 @@ function App() {
           {/* <Route path="/newPost" element={<AddPostPage />} /> */}
           {/* <Route path="/:id/editPost" element={<EditPostPage />} /> */}
 
-          {/* <Route path="/register" element={<RegisterPage />} /> */}
+          <Route path="/register" element={<RegisterPage />} />
           <Route path="/price" element={<Price />} />
 
           <Route path="/about" element={<AboutPages />} />
