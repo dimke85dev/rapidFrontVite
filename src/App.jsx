@@ -61,13 +61,13 @@ function App() {
           <Route path="/about" element={<AboutPages />} />
           <Route path="/contacts" element={<Contacts />} />
           {/* <Route path="/cars" element={<Cars />} /> */}
-          {/* <Route path="/cars/:id" element={<Car />} /> */}
+          <Route path="/cars/:id" element={<Car />} />
 
           <Route path="/login" element={<LoginPage />} />
           <Route path="/users" element={<Users />} />
 
           {/* <Route path="/takeacar" element={<TakeACar />} /> */}
-          <Route path="/addcar/:id" element={<AddCar />} />
+          {/* <Route path="/addcar/:id" element={<AddCar />} /> */}
           {/* <Route path="/addcarrepair" element={<AddCarRepair />} /> */}
 
           {/* <Route path="/mainrepair" element={<MainRepairsPage />} /> */}
