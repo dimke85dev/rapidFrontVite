@@ -29,7 +29,7 @@ import { getMe } from './store/features/auth/authSlice';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useEffect } from 'react';
-
+import { BrowserRouter } from 'react-router-dom';
 
 
 
@@ -43,6 +43,7 @@ function App() {
 
   return (
     <>
+    <BrowserRouter>
           {/* <Layout > */}
           {/* <Routes>
           <Route path="/" element={<MainPage />} />
@@ -80,7 +81,7 @@ function App() {
 
             <Footer></Footer>
           {/* </Layout> */}
-          
+          </BrowserRouter>
        
     </>
   );
