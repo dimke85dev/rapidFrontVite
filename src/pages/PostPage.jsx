@@ -77,7 +77,8 @@ const PostPage = () => {
       console.log(error);
     }
   };
-
+  console.log(post.imgUrl);
+  
   const submitHandler = (e) => {
     e.preventDefault();
     if (!comment) {
