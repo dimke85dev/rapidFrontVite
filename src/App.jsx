@@ -12,7 +12,7 @@ import LoginPage from './pages/LoginPage';
 import MainPage from './pages/MainPage';
 import AboutPages from './pages/AboutPages';
 import PostsPage from './pages/PostsPage';
-// import PostPage from './pages/PostPage';
+import PostPage from './pages/PostPage';
 import AddPostPage from './pages/AddPostPage';
 import EditPostPage from './pages/EditPostPage';
 import AddCarRepair from './pages/AddCarRepair';
