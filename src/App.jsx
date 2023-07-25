@@ -10,7 +10,7 @@ import Layout from './components/layout/Layout';
 // import RegisterPage from './pages/RegisterPage';
 // import LoginPage from './pages/LoginPage';
 import MainPage from './pages/MainPage';
-import AboutPages from './pages/AboutPages';
+// import AboutPages from './pages/AboutPages';
 import PostsPage from './pages/PostsPage';
 import PostPage from './pages/PostPage';
 import AddPostPage from './pages/AddPostPage';
@@ -58,7 +58,7 @@ function App() {
           {/* <Route path="/register" element={<RegisterPage />} /> */}
           <Route path="/price" element={<Price />} />
 
-          <Route path="/about" element={<AboutPages />} />
+          {/* <Route path="/about" element={<AboutPages />} /> */}
           <Route path="/contacts" element={<Contacts />} />
           {/* <Route path="/cars" element={<Cars />} /> */}
           {/* <Route path="/cars/:id" element={<Car />} /> */}
