@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about {
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  text-align: justify;
+  text-indent: 4%;
+}
+.carimg {
+  margin: auto 0;
+  height: 100%;
+  object-fit: cover;
+}
+
+h2 {
+  font-size: 36px;
+  text-align: center;
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.member {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.member img {
+  margin: 0 auto;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+}
+
+.member h4 {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.perevagy {
+  font-size: 15px;
+}
+
+.member p {
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .team {
+    display: flex;
+    flex-direction: column;
+  }
+  .member {
+    margin: 0 auto;
+  }
+
+  .member img {
+    width: 200px;
+  }
+
+  .carsection {
+    display: flex;
+    flex-direction: column;
+  }
+  .carimg {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .about {
+    width: 100%;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+  }
+}

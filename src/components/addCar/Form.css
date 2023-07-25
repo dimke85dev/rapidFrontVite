@@ -1,0 +1,98 @@
+.control-group {
+  padding: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  background-color: rgb(158, 170, 151);
+  /* opacity: 95%; */
+  /* height: 100vh; */
+  /* min-height: calc(100vh - 60px); */
+}
+.form-control {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  background-color: white;
+  margin-bottom: 10px;
+  text-align: center;
+  /* height: 100vh; */
+}
+
+.border-input {
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.btn-submit {
+  margin: 0 auto;
+  border: 1px solid rgb(181, 173, 173);
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.btn-submit:hover {
+  background-color: rgb(185, 240, 164);
+}
+.btn-invalid {
+  margin: 0 auto;
+  border: 1px solid rgb(17, 17, 17);
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: rgb(232, 157, 157);
+}
+
+.form-input,
+.form-select {
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 1rem;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Lato', sans-serif; */
+  font-weight: 500;
+  font-size: 14px;
+}
+.form-option {
+  /* font-family: 'Edu VIC WA NT Beginner', cursive; */
+  /* font-family: 'Sedgwick Ave Display', cursive; */
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Lato', sans-serif; */
+  border: 1px solid black;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.invalid input {
+  border-color: red;
+  background-color: #dccccc;
+}
+
+.form-label {
+  /* font-family: 'Edu VIC WA NT Beginner', cursive; */
+  /* font-family: 'Sedgwick Ave Display', cursive; */
+  font-family: 'Lato', sans-serif;
+
+  font-weight: 500;
+  font-size: 20px;
+}
+.form-h2 {
+  /* font-family: 'Edu VIC WA NT Beginner', cursive; */
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-family: 'Lato', sans-serif; */
+  /* font-family: 'Sedgwick Ave Display', cursive; */
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.error-text {
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  color: red;
+}
+
+@media (max-width: 768px) {
+  .control-group,
+  .form-control {
+    padding: 0.5rem;
+  }
+}

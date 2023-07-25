@@ -1,0 +1,10 @@
+@media (max-width: 1023px) {
+  .form-tel {
+    padding: 10px;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .form-tel div {
+    justify-content: space-between;
+  }
+}

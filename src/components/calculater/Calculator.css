@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', 'Segoe UI', sans-serif;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  /* justify-content: center; */
+  align-items: center;
+  /* width: 100%; */
+
+  /* margin: 0 auto; */
+  /* height: 100vh; */
+  /* background-color: #000; */
+}
+
+.display {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 360px;
+  height: 84px;
+  padding-right: 24px;
+  font-size: 60px;
+  line-height: 1.2;
+  background-color: #222;
+  color: #fff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.buttons {
+  display: grid;
+  gap: 5px;
+
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-rows: repeat(5, 1fr); */
+
+  width: 360px;
+  margin-top: 12px;
+}
+
+.button-calc {
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 84px;
+  height: 84px;
+  font-size: 36px;
+  line-height: 1.2;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  /* margin: 3px; */
+}
+
+.light-gray {
+  background-color: #a5a5a5;
+  color: #fff;
+}
+
+.dark-gray {
+  background-color: #333;
+  color: #fff;
+}
+
+.orange {
+  background-color: #ff9500;
+  color: #fff;
+}
+
+.wide {
+  grid-column-start: span 2;
+  width: 100%;
+  border-radius: 450px;
+}
+
+@media (max-width: 600px) {
+  .calculator {
+    /* width: 100%; */
+    max-width: 350px;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #7f7878;
+    border-radius: 20px;
+    padding: 0 0 10px 0;
+  }
+  .button-calc {
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .display {
+    width: 100%;
+    height: 60px;
+
+    padding: 20px 20px 20px 0;
+    font-size: 40px;
+  }
+
+  .buttons {
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    max-width: 320px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    gap: 2px;
+  }
+
+  .wide {
+    grid-column-start: span 2;
+    width: 85%;
+    border-radius: 450px;
+  }
+}

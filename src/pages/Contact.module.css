@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+  .mapcontainer {
+    border: solid 1px gray;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 10px;
+  }
+  .contactmobile {
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 5px 3px 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mapmobile {
+    flex-direction: column;
+  }
+  .contactmobile {
+    margin: 0 auto;
+    width: 95%;
+    gap: 15px;
+  }
+  .scheduleSocial {
+    flex-direction: column;
+  }
+}
