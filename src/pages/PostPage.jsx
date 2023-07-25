@@ -1,4 +1,4 @@
-import { Fragment, useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
 import Moment from 'react-moment';
 import {
@@ -95,7 +95,7 @@ const PostPage = () => {
       {!status ? (
         <Loader />
       ) : (
-        <Fragment>
+        <>
           <Link
             to={'/'}
             className="flex justify-center items-center bg-gray-600 text-xs text-white rounded-md py-2 px-4"
@@ -192,7 +192,7 @@ const PostPage = () => {
                 ))}
             </div>
           </div>
-        </Fragment>
+        </>
       )}
     </div>
   );
