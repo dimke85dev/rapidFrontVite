@@ -17,8 +17,8 @@ import PostsPage from './pages/PostsPage';
 // import EditPostPage from './pages/EditPostPage';
 // import AddCarRepair from './pages/AddCarRepair';
 // import AddCar from './components/addCar/AddCar';
-// import MainRepairsPage from './pages/MainRepairsPage';
-// import TypeRepairPage from './pages/TypeRepairPage';
+import MainRepairsPage from './pages/MainRepairsPage';
+import TypeRepairPage from './pages/TypeRepairPage';
 import Price from './pages/Price';
 import Users from './pages/Users';
 import Cars from './pages/Cars';
@@ -70,8 +70,8 @@ function App() {
           {/* <Route path="/addcar/:id" element={<AddCar />} /> */}
           {/* <Route path="/addcarrepair" element={<AddCarRepair />} /> */}
 
-          {/* <Route path="/mainrepair" element={<MainRepairsPage />} /> */}
-          {/* <Route path="/mainrepair/:id" element={<TypeRepairPage />} /> */}
+          <Route path="/mainrepair" element={<MainRepairsPage />} />
+          <Route path="/mainrepair/:id" element={<TypeRepairPage />} />
 
           {/* <Route path="/reports" element={<Reports />} /> */}
           <Route path="/settings" element={<Settings />} />
