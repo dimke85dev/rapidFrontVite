@@ -11,6 +11,9 @@
 }
 
 @media (max-width: 768px) {
+  .mobile-width{
+    width: 95%;
+  }
   .mapmobile {
     flex-direction: column;
   }
