@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
-import Moment from 'react-moment';
+// import Moment from 'react-moment';
 import {
   AiFillEye,
   AiOutlineMessage,
@@ -125,7 +125,7 @@ const PostPage = () => {
                 <div className="flex justify-between items-center pt-2">
                   <div className="text-xs opacity-50">{post.username}</div>
                   <div className="text-xs text-black opacity-50">
-                    <Moment date={post.createdAt} format="D MMM YYYY" />
+                    {/* <Moment date={post.createdAt} format="D MMM YYYY" /> */}
                   </div>
                 </div>
                 <div className="text-xl">{post.title}</div>
