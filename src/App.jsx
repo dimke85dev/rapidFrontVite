@@ -21,7 +21,7 @@ import PostsPage from './pages/PostsPage';
 // import TypeRepairPage from './pages/TypeRepairPage';
 import Price from './pages/Price';
 import Users from './pages/Users';
-// import Cars from './pages/Cars';
+import Cars from './pages/Cars';
 import Car from './pages/Car';
 import Contacts from './pages/Contacts';
 import { useDispatch } from 'react-redux';
@@ -60,7 +60,7 @@ function App() {
 
           <Route path="/about" element={<AboutPages />} />
           <Route path="/contacts" element={<Contacts />} />
-          {/* <Route path="/cars" element={<Cars />} /> */}
+          <Route path="/cars" element={<Cars />} />
           <Route path="/cars/:id" element={<Car />} />
 
           <Route path="/login" element={<LoginPage />} />
