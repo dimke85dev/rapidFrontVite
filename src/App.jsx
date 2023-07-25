@@ -5,7 +5,7 @@ import Footer from './components/UI/Footer';
 
 import Layout from './components/layout/Layout';
 import TakeACar from './pages/TakeACar';
-// import Reports from './pages/Reports';
+import Reports from './pages/Reports';
 import Settings from './pages/Settings';
 import RegisterPage from './pages/RegisterPage';
 import LoginPage from './pages/LoginPage';
@@ -15,7 +15,7 @@ import PostsPage from './pages/PostsPage';
 // import PostPage from './pages/PostPage';
 // import AddPostPage from './pages/AddPostPage';
 // import EditPostPage from './pages/EditPostPage';
-// import AddCarRepair from './pages/AddCarRepair';
+import AddCarRepair from './pages/AddCarRepair';
 import AddCar from './components/addCar/AddCar';
 import MainRepairsPage from './pages/MainRepairsPage';
 import TypeRepairPage from './pages/TypeRepairPage';
@@ -68,12 +68,12 @@ function App() {
 
           <Route path="/takeacar" element={<TakeACar />} />
           <Route path="/addcar/:id" element={<AddCar />} />
-          {/* <Route path="/addcarrepair" element={<AddCarRepair />} /> */}
+          <Route path="/addcarrepair" element={<AddCarRepair />} />
 
           <Route path="/mainrepair" element={<MainRepairsPage />} />
           <Route path="/mainrepair/:id" element={<TypeRepairPage />} />
 
-          {/* <Route path="/reports" element={<Reports />} /> */}
+          <Route path="/reports" element={<Reports />} />
           <Route path="/settings" element={<Settings />} />
         </Routes>
 
