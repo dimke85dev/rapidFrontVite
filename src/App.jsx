@@ -4,7 +4,7 @@ import Footer from './components/UI/Footer';
 
 
 import Layout from './components/layout/Layout';
-// import TakeACar from './pages/TakeACar';
+import TakeACar from './pages/TakeACar';
 // import Reports from './pages/Reports';
 import Settings from './pages/Settings';
 import RegisterPage from './pages/RegisterPage';
@@ -66,7 +66,7 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/users" element={<Users />} />
 
-          {/* <Route path="/takeacar" element={<TakeACar />} /> */}
+          <Route path="/takeacar" element={<TakeACar />} />
           {/* <Route path="/addcar/:id" element={<AddCar />} /> */}
           {/* <Route path="/addcarrepair" element={<AddCarRepair />} /> */}
 
