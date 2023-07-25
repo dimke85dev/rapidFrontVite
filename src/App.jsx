@@ -22,7 +22,7 @@ import PostsPage from './pages/PostsPage';
 import Price from './pages/Price';
 import Users from './pages/Users';
 // import Cars from './pages/Cars';
-// import Car from './pages/Car';
+import Car from './pages/Car';
 import Contacts from './pages/Contacts';
 import { useDispatch } from 'react-redux';
 import { getMe } from './store/features/auth/authSlice';
@@ -67,7 +67,7 @@ function App() {
           <Route path="/users" element={<Users />} />
 
           {/* <Route path="/takeacar" element={<TakeACar />} /> */}
-          {/* <Route path="/addcar/:id" element={<AddCar />} /> */}
+          <Route path="/addcar/:id" element={<AddCar />} />
           {/* <Route path="/addcarrepair" element={<AddCarRepair />} /> */}
 
           {/* <Route path="/mainrepair" element={<MainRepairsPage />} /> */}
