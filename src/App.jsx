@@ -11,7 +11,7 @@ import Layout from './components/layout/Layout';
 // import LoginPage from './pages/LoginPage';
 import MainPage from './pages/MainPage';
 // import AboutPages from './pages/AboutPages';
-// import PostsPage from './pages/PostsPage';
+import PostsPage from './pages/PostsPage';
 // import PostPage from './pages/PostPage';
 // import AddPostPage from './pages/AddPostPage';
 // import EditPostPage from './pages/EditPostPage';
@@ -49,8 +49,8 @@ function App() {
           <Route path="/" element={<MainPage />} />
 
 
-          {/* <Route path="/posts" element={<PostsPage />} /> */}
-          {/* <Route path="/out" element={<MainPage />} /> */}
+          <Route path="/posts" element={<PostsPage />} />
+          <Route path="/out" element={<MainPage />} />
           {/* <Route path="/:id" element={<PostPage />} /> */}
           {/* <Route path="/newPost" element={<AddPostPage />} /> */}
           {/* <Route path="/:id/editPost" element={<EditPostPage />} /> */}
