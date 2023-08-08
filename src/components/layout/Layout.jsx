@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import Header from '../UI/Header';
+import Header from '../UI/Header/Header';
 import styles from './Layout.module.css';
 
 const Layout = (props) => {

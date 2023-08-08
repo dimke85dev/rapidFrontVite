@@ -1,7 +1,7 @@
 import styles from './About.module.css';
 const AboutPages = () => {
   return (
-    <div className="bg-gray-300 mobile-form rounded-xl mx-auto px-3">
+    <div className=" mobile-form rounded-xl mx-auto px-3">
       <div className={styles.container}>
         <h2>Про нас</h2>
         <div className={styles.carsection + ' flex gap-4 '}>
@@ -10,7 +10,7 @@ const AboutPages = () => {
             src="carservice.jpg"
             alt="автомобиль"
           />
-          <p className={styles.about + ' w-3/5 text-sm'}>
+          <p className={styles.about + ' md:w-3/5 text-sm'}>
             Ласкаво просимо до автосервісу "Rapid Service"! Наш автосервіс
             працює на ринку вже більше 15 років і займається професійним
             ремонтом автомобілів різних марок та моделей. Ми пропонуємо широкий

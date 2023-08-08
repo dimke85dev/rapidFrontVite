@@ -20,8 +20,6 @@
   body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #ebf2ed;
-    /* background-image: url('dec-3.png'); */
     background-repeat: no-repeat;
     background-size: auto;
     background-attachment: fixed;

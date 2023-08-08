@@ -46,6 +46,8 @@ export const addUserAdminPanel = createAsyncThunk(
   'auth/AddNewUser',
   async ({ username, password, formRole }) => {
     try {
+      
+      
       const { data } = await axios.post('/auth/register', {
         username,
         password,

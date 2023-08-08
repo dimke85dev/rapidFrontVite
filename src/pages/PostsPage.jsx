@@ -40,7 +40,7 @@ const PostsPage = () => {
       {!status ? (
         <Loader />
       ) : (
-        <div className="w-1/2 bg-slate-200 px-2 mobile-form mx-auto py-10 flex flex-col gap-10 ">
+        <div className="md:w-2/3 px-2 mobile-form mx-auto py-10 flex flex-col gap-10 ">
           {posts.map((post, index) => {
             return post && <PostItem post={post} key={index} />;
           })}

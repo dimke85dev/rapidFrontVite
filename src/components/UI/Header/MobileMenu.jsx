@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import styles from '../UI/Header.module.css';
+import styles from './Header.module.css';
 import { FaUserTie } from 'react-icons/fa';
 
 import { useDispatch, useSelector } from 'react-redux';
@@ -8,8 +8,8 @@ import {
   checkIsAuth,
   logout,
   checkIsRole,
-} from '../../store/features/auth/authSlice';
-import { carOut } from '../../store/features/car/carSlice';
+} from '../../../store/features/auth/authSlice';
+import { carOut } from '../../../store/features/car/carSlice';
 import { toast } from 'react-toastify';
 
 const MobileMenu = () => {
@@ -52,11 +52,11 @@ const MobileMenu = () => {
       : setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  const directoryHandler = (e) => {
+  const directoryHandler = () => {
     setDirectoryMenu(!directoryMenu);
     setmainMenu(!mainMenu);
   };
-  const serviceHandler = (e) => {
+  const serviceHandler = () => {
     setServiceMenu(!serviceMenu);
     setmainMenu(!mainMenu);
   };
@@ -83,7 +83,7 @@ const MobileMenu = () => {
   const service = serviceMenu ? '' : 'hidden';
 
   return (
-    <div className={`container  mx-auto ${styles.header}`}>
+    <div className={`container   mx-auto ${styles.header}`}>
       <img
         onClick={mobilMenuHandler}
         className={`${isScrolled ? styles['logo-scroll'] : ''} ` + styles.logo}
@@ -103,7 +103,7 @@ const MobileMenu = () => {
 
         <nav
           className={`${styles.nav}  ${
-            isMobileMenuOpen ? styles.mobileMenu : ''
+            isMobileMenuOpen ? `${styles.mobileMenu} bg-gray-800` : ''
           }`}
         >
           <ul className={`${styles['ul-main']} gap-3 `}>

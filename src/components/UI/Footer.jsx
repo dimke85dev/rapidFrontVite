@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer className={`${styles.footer} bg-gray-800`}>
       <div className={styles.social}>
         <a
           aria-label="facebook"
@@ -33,7 +33,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={faTwitter} />
         </a>
       </div>
-      <p>&copy; {new Date().getFullYear()} Your Company Name</p>
+      <p>&copy; {new Date().getFullYear()} Rapid Service</p>
     </footer>
   );
 };

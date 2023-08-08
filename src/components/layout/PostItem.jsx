@@ -20,7 +20,7 @@ const PostItem = ({ post }) => {
     <Link to={`/${post._id}`}>
       <div className="flex flex-col basis-1/4 flex-grow">
         <div
-          className={post.imgUrl ? 'flex rouded-sm h-80' : 'flex rounded-sm'}
+          className={post.imgUrl ? 'flex rouded-sm h-full' : 'flex rounded-sm'}
         >
           {post.imgUrl && (
             <img
@@ -29,7 +29,7 @@ const PostItem = ({ post }) => {
               // src={`http://localhost:5000/${post.imgUrl}`}
               // src={`http://192.168.0.105:5000/${post.imgUrl}`}
               alt="img"
-              className="mobile-img object-cover w-full mx-auto"
+              className="mobile-img object-cover w-full mx-auto h-full"
             />
           )}
         </div>

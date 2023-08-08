@@ -1,11 +1,10 @@
 .footer {
   background-color: #aea5a5;
-  color: #ffffff;
+  color: #b9f5f5;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  opacity: 70%;
 }
 
 .social {
@@ -13,12 +12,14 @@
 }
 
 .social a {
-  color: #ffffff;
+  color: #b9f5f5;
   margin-right: 1rem;
+  margin-left: 1rem;
+
 }
 
 .social a:hover {
-  color: #000;
+  color: #9ef7c3;
 }
 
 @media (max-width: 768px) {

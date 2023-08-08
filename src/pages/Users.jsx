@@ -154,12 +154,12 @@ const Users = () => {
     );
   };
 
-  const addUserHandler = (e) => {
+  const addUserHandler = () => {
     setisAddUserForm(!isAddUserForm);
     setfocusLogin(true);
   };
 
-  const addFormUserHandler = (e) => {
+  const addFormUserHandler = () => {
     if (!isInputFormValid(addName, 'Login')) return;
     if (!validateLogin(addName)) return;
     if (!isInputFormValid(addPass, 'Пароль')) return;
@@ -263,7 +263,7 @@ const Users = () => {
     }
   };
 
-  const togleFocus = (e) => {
+  const togleFocus = () => {
     setfocusPass(false);
     setfocusLogin(false);
     setfocusRole(false);
@@ -273,7 +273,7 @@ const Users = () => {
   return isLoading ? (
     <Loader></Loader>
   ) : !isAddUserForm ? (
-    <div className="w-1/2 mx-auto bg-white px-5 py-2 rounded-xl mobile-form shadow-lg shadow-green-800/80">
+    <div className="md:w-2/3 mx-auto bg-white my-5 px-5 py-2 mobile-form ">
       <h3>Користувачі</h3>
       <div className="flex  justify-between">
         <label className="w-2/5">Login</label>
